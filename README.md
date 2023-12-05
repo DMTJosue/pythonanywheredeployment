@@ -20,11 +20,11 @@ Dans ce tutoriel je vais vous montrer comment deployer une application django su
   4- Clicker sur bash
 
   6- Genrate ssh key
-       ```
-           ~ $ ssh-keygen
-           ~ $ cd .ssh
-           ~ $ ls
-           ~/.ssh $ cat id_rsa.pub
+      ```
+          ~ $ ssh-keygen
+          ~ $ cd .ssh
+          ~ $ ls
+          ~/.ssh $ cat id_rsa.pub
            
       ```
       Copier l'id_rsa.pub dans le ssh key de votre profil github
