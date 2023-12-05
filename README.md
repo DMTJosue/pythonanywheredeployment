@@ -25,6 +25,7 @@ Dans ce tutoriel je vais vous montrer comment deployer une application django su
       cd .ssh
       ls
       cat id_rsa.pub
+      
       ```
       Copier l'id_rsa.pub dans le ssh key de votre profil github
       
