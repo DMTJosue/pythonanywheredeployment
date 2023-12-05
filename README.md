@@ -2,7 +2,6 @@
 
 # Comment Deployer sur PythonAnywhere Une Application django
 
-Voici le Lien du tutoriel sur youtube qui accompagne cette articles
 
 Dans ce tutoriel je vais vous montrer comment deployer une application django sur pythonanywhere se deploiement se fera en deux parties:
 
@@ -19,8 +18,20 @@ Dans ce tutoriel je vais vous montrer comment deployer une application django su
   3- Aller dans le dashboard de pythonanywhere
   
   4- Clicker sur bash
+
+  6- Genrate ssh key
+       ```
+           ~ $ ssh-keygen
+           ~ $ cd .ssh
+           ~ $ ls
+           ~/.ssh $ cat id_rsa.pub
+           
+      ```
+      Copier l'id_rsa.pub dans le ssh key de votre profil github
+      
+      
   
-  5- Cloner son project avec la commande: git clone ton_project
+  5- Cloner son project avec la commande: git clone ton_project(ssh link)
   
   6- Creer un environement vituel avec la commande: mkvirtualenv --python=/usr/bin/pythonversion_de_ton_python nom_de_ton_environement_virtuel
   
@@ -108,11 +119,7 @@ Static files
  
  
      BRAVO TON APPLICATION EST DISPONIBLE SUR UN DOMAINE PERSONNALISE
-     
-  # Contact
   
-    - Email: donaldtedom0@gmail.com
-    - whatsapp: 00237691435485
   
     
  
