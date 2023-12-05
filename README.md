@@ -19,7 +19,7 @@ Dans ce tutoriel je vais vous montrer comment deployer une application django su
   
   4- Clicker sur bash
 
-  6- Genrate ssh key
+  6- Connexion ssh entre githu et pythonanywhere ---- > Genrate ssh key
   ```
   ssh-keygen
 
