@@ -42,7 +42,7 @@ Dans ce tutoriel je vais vous montrer comment deployer une application django su
       
       
   
-  5- Cloner son project avec la commande: git clone ton_project(ssh link)
+  5- Cloner son project à la racine avec la commande: git clone ton_project(ssh link)
   
   6- Creer un environement vituel avec la commande: mkvirtualenv --python=/usr/bin/pythonversion_de_ton_python nom_de_ton_environement_virtuel
   
